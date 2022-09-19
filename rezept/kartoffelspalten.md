@@ -5,24 +5,26 @@
 Vegetarisch, Kartoffel, Easy
 
 ### Zutaten
-1kg Kartoffel
-Olivenöl (4 Esslöffel)
-Paprikapulver
-Salz (2 Teelöffel), Pfeffer
-Thymian
-Rosmarin
-Chili
-Cayenpfeffer
-Knoblauchpulver
-Sriracha Scharfe Chilisauce
+
+- 1kg Kartoffel
+- Olivenöl (4 Esslöffel)
+- Paprikapulver
+- Salz (2 Teelöffel), Pfeffer
+- Thymian
+- Rosmarin
+- Chili
+- Cayenpfeffer
+- Knoblauchpulver
+- Sriracha Scharfe Chilisauce
 
 ### Equipment
 
-Topf
-Backblech
-Backpapier
+- Topf
+- Backblech
+- Backpapier
 
 ### Zubereitung
+
 Kartoffeln klein schneiden und kurz mit Wasser abwaschen.
 Wasser abtropfen lassen und mit zwei Blätter Küchenrolle das restliche Wasser aufsaugen.
 Alles mit Gewürzen in einem Behälter vermischen.
