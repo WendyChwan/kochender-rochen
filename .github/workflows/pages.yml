@@ -29,8 +29,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Generate JSON file list
         run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
-      - name: Switch from HTTPS to SSH
-        run: git remote set-url origin ${{ secrets.ssh }}
+#      - name: Switch from HTTPS to SSH
+#        run: git remote set-url origin ${{ secrets.ssh }}
       - name: Check for changes
         run: git status
       - name: Stage recepies.json
