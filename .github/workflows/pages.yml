@@ -29,18 +29,25 @@ jobs:
         uses: actions/checkout@v3
       - name: Generate JSON file list
         run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
+#  APPROACH 1
 #      - name: Switch from HTTPS to SSH
 #        run: git remote set-url origin ${{ secrets.ssh }}
-      - name: Check for changes
-        run: git status
-      - name: Stage recepies.json
-        run: git add .
-      - name: Commit recepies.json
-        run: git commit -m "Auto update recepies.json"
-      - name: Fetch from master
-        run: git fetch origin master
-      - name: Push recepies.json to master
-        run: git push origin HEAD:master
+#      - name: Check for changes
+#        run: git status
+#      - name: Stage recepies.json
+#        run: git add .
+#      - name: Commit recepies.json
+#        run: git commit -m "Auto update recepies.json"
+#      - name: Fetch from master
+#        run: git fetch origin master
+#      - name: Push recepies.json to master
+#        run: git push origin HEAD:master
+#  APPROACH 2
+#      - name: Commit recepies.json
+#        run: |
+#          git config --local user.name = "Krassnig"
+#          git add .
+#          git commit -m "Automatically update recepies.json"
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
