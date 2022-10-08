@@ -45,6 +45,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Create JSON file list
+        run: ls > out.txt
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
