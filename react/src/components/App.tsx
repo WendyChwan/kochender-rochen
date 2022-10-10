@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
+interface Recipe {
+  fileName: string;
+  content: string;
+}
+
 const App: React.FC = () => {
-  const [recepies, setRecepies] = useState<any>();
+  const [recepies, setRecepies] = useState<Recipe[] | undefined>();
 
   useEffect(() => {
     fetch('/recepies.json')
@@ -11,7 +16,9 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      { recepies !== undefined && recepies[0].fileName }
+      { recepies !== undefined && recepies.map(r => (
+        <div>{r.fileName}</div>
+      )) }
     </div>
   );
 }
