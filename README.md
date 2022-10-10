@@ -1,1 +1,1 @@
-[Kochender Rochen Website](https://krassnig.github.io/kochender-rochen/)
+[Kochender Rochen Website](https://kochender-rochen.krassnig.dev/)
