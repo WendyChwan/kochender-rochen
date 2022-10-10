@@ -31,9 +31,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Build React page
+      - name: NPM install & build React page
         run: |
           cd ./react
+          npm install
           npm run build-github-pages
           cd ../
           mv ./react/build/* ./
