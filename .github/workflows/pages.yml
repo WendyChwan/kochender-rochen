@@ -27,6 +27,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Build React page
+        run: cd ./react
+        run: npm run build-github-pages
+        run: cd ../
+        run: mv ./react/build/* ./
       - name: Generate JSON file list
         run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
       - name: Setup Pages
