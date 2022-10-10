@@ -40,7 +40,7 @@ jobs:
           mv ./react/build/* ./
           rm -r ./react/
       - name: Generate JSON file list
-        run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
+        run: python ./.github/workflows/list.py "./rezept/" "./recipes.json"
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll

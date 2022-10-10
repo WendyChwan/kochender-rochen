@@ -12,8 +12,8 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "start": "python \"../.github/workflows/list.py\" \"../rezept/\" \"./public/recepies.json\" && react-scripts start",
-    "build": "python \"../.github/workflows/list.py\" \"../rezept/\" \"./public/recepies.json\" && react-scripts build",
+    "start": "python \"../.github/workflows/list.py\" \"../rezept/\" \"./public/recipes.json\" && react-scripts start",
+    "build": "python \"../.github/workflows/list.py\" \"../rezept/\" \"./public/recipes.json\" && react-scripts build",
     "build-github-pages": "react-scripts build"
   },
   "eslintConfig": {

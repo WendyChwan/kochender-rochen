@@ -10,7 +10,7 @@ const App: React.FC = () => {
   const [recepies, setRecepies] = useState<Recipe[] | undefined>();
 
   useEffect(() => {
-    fetch('/recepies.json')
+    fetch('/recipes.json')
       .then(r => r.json().then(json => setRecepies(json)));
   }, [])
 
