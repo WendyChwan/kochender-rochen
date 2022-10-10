@@ -18,7 +18,7 @@ const App: React.FC = () => {
     <div className="App">
       { recepies !== undefined && recepies.map(r => (
         <div>
-          <a href={'/rezept/' + r.fileName}>{r.fileName}</a>
+          <a href={'/rezept/' + r.fileName.substring(0, r.fileName.length - 3)}>{r.fileName}</a>
         </div>
       )) }
     </div>
