@@ -32,10 +32,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Build React page
-        run: cd ./react
-        run: npm run build-github-pages
-        run: cd ../
-        run: mv ./react/build/* ./
+        run: |
+          cd ./react
+          npm run build-github-pages
+          cd ../
+          mv ./react/build/* ./
       - name: Generate JSON file list
         run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
       - name: Setup Pages
