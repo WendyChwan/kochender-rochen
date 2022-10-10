@@ -38,6 +38,7 @@ jobs:
           npm run build-github-pages
           cd ../
           mv ./react/build/* ./
+          rmdir ./react/
       - name: Generate JSON file list
         run: python ./.github/workflows/list.py "./rezept/" "./recepies.json"
       - name: Setup Pages
