@@ -21,7 +21,7 @@ export const Search: React.FC<Props> = props => {
 			<input type='text' onChange={e => setSearchString(e.target.value)} />
 			<div className='search-results'>
 				{ searchResult.map(r => (
-					<div><a href={r.name} target='_blank' rel='noreferrer'>{r.name}</a></div>
+					<div><a href={r.name} target='_blank' rel='noreferrer'>{'/rezept/' + r.name}</a></div>
 				)) }
 			</div>
 		</div>
