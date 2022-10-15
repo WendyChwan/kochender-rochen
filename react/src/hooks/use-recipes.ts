@@ -8,6 +8,7 @@ interface RecipeDTO {
 export interface Recipe {
 	name: string;
 	fileName: string;
+	link: string;
 	document: Section[];
 }
 
@@ -31,11 +32,16 @@ export const useRecipes = () => {
 }
 
 const convertToRecipes = (dtos: RecipeDTO[]): Recipe[] => {
-	return dtos.map(dto => ({
-		name: removeFileExtension(dto.fileName),
-		fileName: dto.fileName,
-		document: parseMarkDown(dto.content)
-	}));
+	return dtos.map(dto => {	
+		const name = removeFileExtension(dto.fileName);
+
+		return {
+			name: name,
+			fileName: dto.fileName,
+			link: '/rezept/' + name,
+			document: parseMarkDown(dto.content)
+		};
+	});
 }
 
 const removeFileExtension = (fileName: string): string => {
