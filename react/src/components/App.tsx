@@ -1,28 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useRecipes } from '../hooks/use-recipes';
 import './App.css';
+import { Search } from './Search';
 
-interface Recipe {
-  fileName: string;
-  content: string;
-}
 
 const App: React.FC = () => {
-  const [recepies, setRecepies] = useState<Recipe[] | undefined>();
+	const recipes = useRecipes();
 
-  useEffect(() => {
-    fetch('/recipes.json')
-      .then(r => r.json().then(json => setRecepies(json)));
-  }, [])
-
-  return (
-    <div className="App">
-      { recepies !== undefined && recepies.map(r => (
-        <div>
-          <a href={'/rezept/' + r.fileName.substring(0, r.fileName.length - 3)}>{r.fileName}</a>
-        </div>
-      )) }
-    </div>
-  );
+	return (
+		<div className="App">
+			{ recipes !== undefined && (
+				<Search recipes={recipes} />
+			) }
+		</div>
+	);
 }
 
 export default App;
