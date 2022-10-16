@@ -5,12 +5,13 @@
 Scharf, Fleisch
 
 ## Zutaten
+
 - 250g Creme fraiche
-- Paprika Rot und Gelb
+- 2x Paprika (Rot und Gelb)
 - 400g Hühnchen
-- 8 stück medium tortilla
+- 8x Stück medium tortilla
 - 200g Käse
-- Mais
+- 1 Dose Mais
 - 1 Zwiebel
 - Knoblauch
 - Salz
