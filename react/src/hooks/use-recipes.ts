@@ -7,9 +7,7 @@ interface RecipeDTO {
 
 export interface Recipe {
 	title: string;
-	name: string;
-	fileName: string;
-	link: string;
+	path: string;
 	document: Section[];
 }
 
@@ -24,7 +22,7 @@ export const useRecipes = () => {
 	useEffect(() => {
 		(async () => {
 			const response = await fetch('/recipes.json');
-			const json = await response.json() as RecipeDTO[];
+			const json: RecipeDTO[] = await response.json();
 			setRecipes(convertToRecipes(json));
 		})();
 	}, [])
@@ -34,16 +32,14 @@ export const useRecipes = () => {
 
 const convertToRecipes = (dtos: RecipeDTO[]): Recipe[] => {
 	return dtos.map(dto => {	
-		const name = removeFileExtension(dto.fileName);
+		const fileName = removeFileExtension(dto.fileName);
 		const markDown = parseMarkDown(dto.content);
 		const firstSection = markDown.at(0);
 
 		const result: Recipe = {
-			name: name,
-			fileName: dto.fileName,
-			link: '/rezept/' + name,
+			path: '/rezept/' + fileName,
 			document: markDown,
-			title: firstSection === undefined ? name : firstSection.heading
+			title: firstSection === undefined ? fileName : firstSection.heading
 		};
 
 		return result;
