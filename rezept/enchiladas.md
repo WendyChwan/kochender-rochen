@@ -2,7 +2,7 @@
 
 ## Tags
 
-Scharf, Fleisch
+Scharf, Fleisch, Milchprodukt
 
 ## Zutaten
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-Nudeln, vegan
+Nudeln, Vegan, Vegetarisch
 
 ## Zutaten 
 

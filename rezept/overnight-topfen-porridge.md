@@ -2,7 +2,7 @@
 
 ## Tags
 
-Frühstück, Milchprodukt, Süß
+Frühstück, Milchprodukt, Süß, Vegetarisch
 
 ## Zutaten 
 
