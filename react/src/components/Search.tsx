@@ -6,7 +6,6 @@ import { SearchField } from './SearchField';
 import { RecipeList } from './RecipeList';
 import { SearchSuggestions } from './SearchSuggestions';
 import { NoSearchResult } from './NoSearchResults';
-import { SearchSuggestion } from './SearchSuggestion';
 
 interface Props {
 	recipes: Recipe[];
