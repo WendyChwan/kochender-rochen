@@ -6,17 +6,17 @@ Vegetarisch, Vegan, Pasta
 
 ## Zutaten
 
-400g Pilze
-Karotten
-Zwiebeln
-Knoblauch
-Tomatenmark
-pass. Tomaten 
-100ml Gemüsebrühe
-200g rote Linsen
-Rosmarin, Oregano, Thymian
-Vollkorn-Tagliatelle 
-Salz, Pfeffer 
+- 400g Pilze
+- Karotten
+- Zwiebeln
+- Knoblauch
+- Tomatenmark
+- pass. Tomaten 
+- 100ml Gemüsebrühe
+- 200g rote Linsen
+- Rosmarin, Oregano, Thymian
+- Vollkorn-Tagliatelle 
+- Salz, Pfeffer 
 
 ## Zubereitung
 
