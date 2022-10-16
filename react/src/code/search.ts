@@ -52,7 +52,7 @@ class Search {
 		this.map = new Map<string, string[]>();
 
 		for (const part of searchKeys) {
-			const res = match(part, /[^\s"]+|".+?"/g).map(p => Search.removeQuotes(p));
+			const res = match(part, /[^\s":]+|".+?"/gm).map(p => Search.removeQuotes(p));
 	
 			if (res.length === 0) { }
 			else if (res.length === 1) {
