@@ -1,5 +1,5 @@
 import './Search.css';
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { rankRecipes } from "../code/search";
 import { Recipe } from "../hooks/use-recipes";
 import { SearchField } from './SearchField';
