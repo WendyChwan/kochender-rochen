@@ -1,14 +1,17 @@
-import { Recipe, Section } from "../hooks/use-recipes";
+import { Recipe } from "../hooks/use-recipes";
 
 export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[] => {
-	if (searchString.trim() === '*') return allRecipes;
-
 	const [includeMap, excludeMap] = Search.parse(searchString);
 
 	const recipes = allRecipes.filter(recipe => !isRecipeExcluded(recipe, excludeMap));
 
+	if (includeMap.containsMatchingTags('tags', '*')) return recipes;
+
 	const rankedRecipes = recipes.map(r => rankRecipe(r, includeMap));
-	//console.log(rankedRecipes.map(([ra, re]) => `[${ra}, ${re.name}]`));
+	
+	// Debugging line
+	//console.log(rankedRecipes.map(([ra, re]) => `[${ra}, ${re.title}]`));
+
 	const result = rankedRecipes.filter(([rank, _]) => rank > 0).sort(([rankA, _], [rankB, __]) => rankB - rankA).map(([_, recipe]) => recipe);
 
 	return result;
@@ -17,46 +20,24 @@ export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[
 const rankRecipe = (recipe: Recipe, includeMap: Search): [number, Recipe] => {
 	let rank = 0;
 	
-	if (includeMap.get('tags').some(v => textContains(recipe.name, v))) {
+	if (includeMap.containsMatchingTags('tags', recipe.title)) {
 		rank++;
 	}
 
 	for (const section of recipe.document) {
-		for (const tag of includeMap.get(section.heading)) {
-			if (textContains(section.content, tag)) {
-				rank++;
-			}
-		}
+		rank += includeMap.countMatchingTags(section.heading, section.content);
 	}
 
 	return [rank, recipe];
 }
 
 const isRecipeExcluded = (recipe: Recipe, excludeMap: Search): boolean => {
-	return recipe.document.some(section => isSectionExcluded(section, excludeMap));
-}
-
-const isSectionExcluded = (section: Section, excludeMap: Search): boolean => {
-	const excludedTags = excludeMap.get(section.heading);
-	return excludedTags.some(exTag => textContains(section.content, exTag));
-}
-
-const textContains = (text: string, tag: string) => {
-	return text.toLowerCase().includes(tag.toLowerCase());
-}
-
-const removeQuotes = (str: string): string => {
-	if (str.at(0) === '"' && str.at(str.length - 1) === '"') {
-		return str.substring(1, str.length - 2);
-	}
-	else {
-		return str;
-	}
+	return recipe.document.some(section => excludeMap.containsMatchingTags(section.heading, section.content));
 }
 
 class Search {
 	public static parse(searchString: string) {
-		const matches = searchString.match(/(-?(([^\s"]+|".+?"):([^\s"]+|".+?")|([^\s"]+|".+?")))+/g) ?? [];
+		const matches = match(searchString, /(-?(([^\s"]+|".+?"):([^\s"]+|".+?")|([^\s"]+|".+?")))+/g);
 	
 		const excludeList = matches.filter(m => m[0] === '-').map(m => m.substring(1));
 		const includeList = matches.filter(m => m[0] !== '-');
@@ -71,9 +52,9 @@ class Search {
 		this.map = new Map<string, string[]>();
 
 		for (const part of searchKeys) {
-			const res = part.match(/[^\s"]+|".+?"/g)?.map(p => removeQuotes(p));
+			const res = match(part, /[^\s"]+|".+?"/g).map(p => Search.removeQuotes(p));
 	
-			if (res === undefined || res.length === 0) { }
+			if (res.length === 0) { }
 			else if (res.length === 1) {
 				this.add("tags", res[0]);
 			}
@@ -84,6 +65,16 @@ class Search {
 	}
 
 	private map: Map<string, string[]>;
+
+	private static removeQuotes(str: string): string {
+		str = str.trim();
+		if (str.match(/^".*"$/g)) {
+			return str.substring(1, str.length - 1);
+		}
+		else {
+			return str;
+		}
+	}
 
 	private add(key: string, value: string): void {
 		key = key.toLowerCase();
@@ -97,7 +88,24 @@ class Search {
 		}
 	}
 
-	public get(key: string): string[] {
+	public containsMatchingTags(heading: string, text: string) {
+		return this.countMatchingTags(heading, text) > 0;
+	}
+
+	public countMatchingTags(heading: string, text: string) {
+		const tags = this.get(heading);
+		return tags.filter(tag => textContains(text, tag)).length;
+	}
+
+	private get(key: string): string[] {
 		return this.map.get(key.toLowerCase()) ?? [];
 	}
+}
+
+const textContains = (text: string, tag: string) => {
+	return text.toLowerCase().includes(tag.toLowerCase());
+}
+
+const match = (text: string, matcher: { [Symbol.match](string: string): RegExpMatchArray | null; }): RegExpMatchArray => {
+	return text.match(matcher) ?? [];
 }

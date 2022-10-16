@@ -11,7 +11,7 @@ export const RecipePreview: React.FC<Props> = props => {
 	const description = getDescription(recipe);
 
 	return (
-		<a className='recipe-preview__a' href={recipe.link} target='_self'>
+		<a className='recipe-preview__a' href={recipe.path} target='_self'>
 			<div className='recipe-preview'>
 				<p className='__title'>{recipe.title}</p>
 				<p className='__description'>{description}</p>
