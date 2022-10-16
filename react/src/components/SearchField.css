@@ -1,0 +1,16 @@
+.search-field {
+	display: flex;
+	border: 4px solid black;
+	font-size: 3em;
+	padding: 20px;
+	
+	width: 100%;
+	box-sizing: border-box;
+
+	color: #202020;
+}
+
+.search-field:focus {
+	outline: none;
+	color: black;
+}

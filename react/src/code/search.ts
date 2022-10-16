@@ -1,13 +1,12 @@
 import { Recipe, Section } from "../hooks/use-recipes";
 
-
 export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[] => {
 	const [includeMap, excludeMap] = Search.parse(searchString);
 
 	const recipes = allRecipes.filter(recipe => !isRecipeExcluded(recipe, excludeMap));
 
 	const rankedRecipes = recipes.map(r => rankRecipe(r, includeMap));
-
+	//console.log(rankedRecipes.map(([ra, re]) => `[${ra}, ${re.name}]`));
 	const result = rankedRecipes.filter(([rank, _]) => rank > 0).sort(([rankA, _], [rankB, __]) => rankB - rankA).map(([_, recipe]) => recipe);
 
 	return result;
@@ -16,11 +15,17 @@ export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[
 const rankRecipe = (recipe: Recipe, includeMap: Search): [number, Recipe] => {
 	let rank = 0;
 	
-	if (includeMap.get('tags').some(v => recipe.name.includes(v))) {
+	if (includeMap.get('tags').some(v => recipe.name.includes(v.toLowerCase()))) {
 		rank++;
 	}
 
-	rank += recipe.document.map(section => includeMap.get(section.heading).map<number>(searchKey => section.content.includes(searchKey) ? 1 : 0).reduce((a, b) => a + b, 0)).reduce((a, b) => a + b, 0);
+	for (const section of recipe.document) {
+		for (const tag of includeMap.get(section.heading)) {
+			if (section.content.toLowerCase().includes(tag)) {
+				rank++;
+			}
+		}
+	}
 
 	return [rank, recipe];
 }
@@ -31,7 +36,7 @@ const isRecipeExcluded = (recipe: Recipe, excludeMap: Search): boolean => {
 
 const isSectionExcluded = (section: Section, excludeMap: Search): boolean => {
 	const excludedText = excludeMap.get(section.heading);
-	return excludedText.some(text => section.content.includes(text));
+	return excludedText.some(text => section.content.includes(text.toLowerCase()));
 }
 
 const removeQuotes = (str: string): string => {
@@ -45,7 +50,7 @@ const removeQuotes = (str: string): string => {
 
 class Search {
 	public static parse(searchString: string) {
-		const matches = searchString.match(/(-?((\w+|".+?"):(\w+|".+?")|(\w+|".+?")))+/g) ?? [];
+		const matches = searchString.match(/(-?(([^\s"]+|".+?"):([^\s"]+|".+?")|([^\s"]+|".+?")))+/g) ?? [];
 	
 		const excludeList = matches.filter(m => m[0] === '-').map(m => m.substring(1));
 		const includeList = matches.filter(m => m[0] !== '-');
@@ -60,14 +65,14 @@ class Search {
 		this.map = new Map<string, string[]>();
 
 		for (const part of searchKeys) {
-			const res = part.match(/\w+|".+?"/g)?.map(p => removeQuotes(p));
+			const res = part.match(/[^\s"]+|".+?"/g)?.map(p => removeQuotes(p));
 	
 			if (res === undefined || res.length === 0) { }
 			else if (res.length === 1) {
 				this.add("tags", res[0]);
 			}
 			else {
-				this.add(res[0].toLocaleLowerCase(), res[1]);
+				this.add(res[0], res[1]);
 			}
 		}
 	}
@@ -75,6 +80,8 @@ class Search {
 	private map: Map<string, string[]>;
 
 	private add(key: string, value: string): void {
+		key = key.toLowerCase();
+		value = value.toLowerCase();
 		const arr = this.map.get(key);
 		if (arr === undefined) {
 			this.map.set(key, [value]);
@@ -85,6 +92,6 @@ class Search {
 	}
 
 	public get(key: string): string[] {
-		return this.map.get(key) ?? [];
+		return this.map.get(key.toLowerCase()) ?? [];
 	}
 }

@@ -6,6 +6,7 @@ interface RecipeDTO {
 }
 
 export interface Recipe {
+	title: string;
 	name: string;
 	fileName: string;
 	link: string;
@@ -34,13 +35,18 @@ export const useRecipes = () => {
 const convertToRecipes = (dtos: RecipeDTO[]): Recipe[] => {
 	return dtos.map(dto => {	
 		const name = removeFileExtension(dto.fileName);
+		const markDown = parseMarkDown(dto.content);
+		const firstSection = markDown.at(0);
 
-		return {
+		const result: Recipe = {
 			name: name,
 			fileName: dto.fileName,
 			link: '/rezept/' + name,
-			document: parseMarkDown(dto.content)
+			document: markDown,
+			title: firstSection === undefined ? name : firstSection.heading
 		};
+
+		return result;
 	});
 }
 
@@ -63,5 +69,5 @@ const parseMarkDown = (markdown: string): Section[] => {
 			heading: section.substring(0, splitIndex).trim(),
 			content: section.substring(splitIndex).trim()
 		}
-	}).filter(section => section.heading === '');
+	}).filter(section => section.heading !== '');
 }
