@@ -30,5 +30,5 @@ Scharf, Fleisch
 Creme Fraiche, 100g Käse, Koriander, Salz, Pfeffer in die Schüssel geben
 Zwiebel, Knoblauch, Hühnchen in der Pfanne anbraten
 danach Paprika, Mais dazu anbraten
-160C 8-10min in Ofen
+160C 8-10min in Ofen 
 	
