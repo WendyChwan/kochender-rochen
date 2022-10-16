@@ -1,6 +1,8 @@
 import { Recipe, Section } from "../hooks/use-recipes";
 
 export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[] => {
+	if (searchString.trim() === '*') return allRecipes;
+
 	const [includeMap, excludeMap] = Search.parse(searchString);
 
 	const recipes = allRecipes.filter(recipe => !isRecipeExcluded(recipe, excludeMap));
@@ -15,13 +17,13 @@ export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[
 const rankRecipe = (recipe: Recipe, includeMap: Search): [number, Recipe] => {
 	let rank = 0;
 	
-	if (includeMap.get('tags').some(v => recipe.name.includes(v.toLowerCase()))) {
+	if (includeMap.get('tags').some(v => textContains(recipe.name, v))) {
 		rank++;
 	}
 
 	for (const section of recipe.document) {
 		for (const tag of includeMap.get(section.heading)) {
-			if (section.content.toLowerCase().includes(tag)) {
+			if (textContains(section.content, tag)) {
 				rank++;
 			}
 		}
@@ -35,8 +37,12 @@ const isRecipeExcluded = (recipe: Recipe, excludeMap: Search): boolean => {
 }
 
 const isSectionExcluded = (section: Section, excludeMap: Search): boolean => {
-	const excludedText = excludeMap.get(section.heading);
-	return excludedText.some(text => section.content.includes(text.toLowerCase()));
+	const excludedTags = excludeMap.get(section.heading);
+	return excludedTags.some(exTag => textContains(section.content, exTag));
+}
+
+const textContains = (text: string, tag: string) => {
+	return text.toLowerCase().includes(tag.toLowerCase());
 }
 
 const removeQuotes = (str: string): string => {

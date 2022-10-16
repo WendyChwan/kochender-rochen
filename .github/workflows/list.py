@@ -1,18 +1,19 @@
 import json
 import os
 import sys
+import codecs
 
 path = sys.argv[1]
 file_names = os.listdir(path)
 
-with open(sys.argv[2], 'w') as output_file:
+with codecs.open(sys.argv[2], "w", "utf-8") as output_file:
     files_content = []
     for file_name in file_names:
-        with open(path + file_name, 'r') as file:
+        with codecs.open(path + file_name, "r", "utf-8") as file:
             files_content.append(
                 {
-                    'fileName': file_name,
-                    'content': file.read()
+                    "fileName": file_name,
+                    "content": file.read()
                 }
             )
     
