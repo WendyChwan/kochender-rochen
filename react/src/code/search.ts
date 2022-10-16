@@ -2,7 +2,7 @@ import { Recipe, Section } from "../hooks/use-recipes";
 
 export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[] => {
 	if (searchString.trim() === '*') return allRecipes;
-	
+
 	const [includeMap, excludeMap] = Search.parse(searchString);
 
 	const recipes = allRecipes.filter(recipe => !isRecipeExcluded(recipe, excludeMap));
@@ -38,7 +38,7 @@ const isRecipeExcluded = (recipe: Recipe, excludeMap: Search): boolean => {
 
 const isSectionExcluded = (section: Section, excludeMap: Search): boolean => {
 	const excludedText = excludeMap.get(section.heading);
-	return excludedText.some(text => section.content.includes(text.toLowerCase()));
+	return excludedText.some(text => section.content.toLowerCase().includes(text.toLowerCase()));
 }
 
 const removeQuotes = (str: string): string => {
