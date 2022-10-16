@@ -1,4 +1,4 @@
-# Chocolate Cookies
+# Pursu's Chocolate Cookies
 
 ## Tags
 
