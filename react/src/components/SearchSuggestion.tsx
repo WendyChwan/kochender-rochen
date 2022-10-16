@@ -9,6 +9,6 @@ export const SearchSuggestion: React.FC<Props> = props => {
 	const { search, setSearch } = props;
 
 	return (
-		<button className='search-suggestion' onClick={() => setSearch(search)}>{search === '*' ? 'All' : search}</button>
+		<button className='search-suggestion' onClick={() => setSearch(search)}>{search === '*' ? 'Alle' : search}</button>
 	)
 }

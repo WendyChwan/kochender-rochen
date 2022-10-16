@@ -10,7 +10,7 @@ export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[
 	const rankedRecipes = recipes.map(r => rankRecipe(r, includeMap));
 	
 	// Debugging line
-	//console.log(rankedRecipes.map(([ra, re]) => `[${ra}, ${re.title}]`));
+	// console.log(rankedRecipes.map(([ra, re]) => `[${ra}, ${re.title}]`));
 
 	const result = rankedRecipes.filter(([rank, _]) => rank > 0).sort(([rankA, _], [rankB, __]) => rankB - rankA).map(([_, recipe]) => recipe);
 
