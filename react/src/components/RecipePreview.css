@@ -1,16 +1,22 @@
 .recipe-preview {
-	width: 400px;
+	width: 360px;
 	height: 200px;
 
 	display: flex;
 	flex-direction: column;
 
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
 	margin: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	background-color: #F0F0F0;
+	border-radius: 5px;
+}
 
+.recipe-preview:hover {
+	transform: translate(-2px, -2px);
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+	background-color: #E0E0E0;
 }
 
 .recipe-preview > .__title {
@@ -38,4 +44,10 @@
 
 .recipe-preview__a {
 	text-decoration: none;
+}
+
+@media screen and (min-width: 1080px) {
+	.recipe-preview {
+		width: 480px;
+	}
 }
