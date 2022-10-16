@@ -1,5 +1,5 @@
 import './Search.css';
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { rankRecipes } from "../code/search";
 import { Recipe } from "../hooks/use-recipes";
 import { SearchField } from './SearchField';
@@ -11,7 +11,7 @@ interface Props {
 	recipes: Recipe[];
 }
 
-const getSearchLocation = () => new URLSearchParams(window.location.search).get('search') ?? '';
+const getSearchLocation = () => decodeURI(new URLSearchParams(window.location.search).get('search') ?? '');
 
 export const Search: React.FC<Props> = props => {
 	const { recipes } = props;
@@ -25,11 +25,13 @@ export const Search: React.FC<Props> = props => {
 	}, []);
 
 	useEffect(() => {
-		const timeoutId = setTimeout(
-			() => window.history.pushState({}, '', searchString === '' ? '/' : '/?search=' + searchString),
-			1000
-		);
-		return () => clearTimeout(timeoutId);
+		if (searchString !== getSearchLocation()) {
+			const timeoutId = setTimeout(
+				() => window.history.pushState({}, '', searchString === '' ? '/' : '/?search=' + encodeURI(searchString)),
+				1000
+			);
+			return () => clearTimeout(timeoutId);
+		}
 	}, [searchString]);
 
 	const searchResult = rankRecipes(recipes, searchString);
@@ -43,8 +45,7 @@ export const Search: React.FC<Props> = props => {
 			{ searchResult.length !== 0
 				&& (<RecipeList recipes={limit(searchResult, 20)} />)
 			}
-			{
-				searchString !== '' && searchResult.length === 0
+			{ searchString !== '' && searchResult.length === 0
 				&& (<>
 					<NoSearchResult />
 					<SearchSuggestions setSearch={setSearchString} />
@@ -55,5 +56,5 @@ export const Search: React.FC<Props> = props => {
 }
 
 const limit = <T,>(list: T[], limit: number) => {
-	return list.filter((v, i) => i < limit);
+	return list.filter((_, i) => i < limit);
 }
