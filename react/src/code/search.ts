@@ -1,6 +1,8 @@
 import { Recipe, Section } from "../hooks/use-recipes";
 
 export const rankRecipes = (allRecipes: Recipe[], searchString: string): Recipe[] => {
+	if (searchString.trim() === '*') return allRecipes;
+	
 	const [includeMap, excludeMap] = Search.parse(searchString);
 
 	const recipes = allRecipes.filter(recipe => !isRecipeExcluded(recipe, excludeMap));
