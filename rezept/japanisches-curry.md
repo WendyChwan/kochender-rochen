@@ -2,7 +2,7 @@
 
 ## Tags
 
-Fleisch, Curry
+Fleisch, Curry, Reis
 
 ## Zutaten 
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-Vegetarisch, Vegan, Pasta
+Vegetarisch, Vegan, Nudeln
 
 ## Zutaten
 

@@ -2,7 +2,7 @@
 
 ## Tags
 
-Scharf, Reis
+Scharf, Reis, Fleisch
 
 ## Zutaten
 
