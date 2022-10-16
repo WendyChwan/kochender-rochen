@@ -1,4 +1,4 @@
-# Japanisches Curry (selbstgemacht)
+# Japanisches Curry
 
 ## Tags
 
