@@ -1,21 +1,37 @@
 .search-field {
 	display: flex;
-	border: 4px solid black;
-	font-size: 2em;
-	padding: 15px;
-	
+	flex-direction: row;
 	width: 100%;
+
+	border: 4px solid black;
 	box-sizing: border-box;
-
-	color: #202020;
-
 	border-left-style: none;
 	border-right-style: none;
 }
 
-.search-field:focus {
+.search-field > input {
+	flex: 1 0 auto;
+
+	font-size: 2em;
+	padding: 15px;
+
+	border: none;
+	color: #202020;
+}
+
+.search-field > input:focus {
 	outline: none;
 	color: black;
+}
+
+.search-field > button {
+	flex: 0 0 auto;
+	font-size: 2em;
+	font-weight: bold;
+	width: 2em;
+
+	border: none;
+	background-color: white;
 }
 
 @media screen and (min-width: 1080px) {

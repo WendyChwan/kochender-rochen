@@ -9,6 +9,9 @@ export const SearchField: React.FC<Props> = props => {
 	const { search, setSearch } = props;
 
 	return (
-		<input className='search-field' type='text' placeholder='Suche nach Rezepten...' value={search} onChange={e => setSearch(e.target.value)} />
+		<div className='search-field'>
+			<input type='text' placeholder='Suche nach Rezepten...' value={search} onChange={e => setSearch(e.target.value)} />
+			<button type='button' onClick={() => setSearch('')}>{search === '' ? '' : '×'}</button>
+		</div>
 	);
 }
