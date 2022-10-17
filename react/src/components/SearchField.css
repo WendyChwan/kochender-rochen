@@ -30,6 +30,7 @@
 	font-weight: bold;
 	width: 2em;
 
+	cursor: pointer;
 	border: none;
 	background-color: white;
 }
