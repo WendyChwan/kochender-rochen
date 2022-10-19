@@ -10,7 +10,7 @@
 }
 
 .search-field > input {
-	flex: 1 0 auto;
+	flex: 1 1 auto;
 
 	font-size: 2em;
 	padding: 15px;
