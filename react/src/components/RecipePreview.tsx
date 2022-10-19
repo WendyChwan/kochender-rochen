@@ -21,7 +21,7 @@ export const RecipePreview: React.FC<Props> = props => {
 }
 
 const getDescription = (recipe: Recipe): string => {
-	const description = recipe.document.find(section => section.heading.toLowerCase() === 'description');
+	const description = recipe.document.find(section => section.heading.toLowerCase() === 'beschreibung');
 	const tags = recipe.document.find(section => section.heading.toLowerCase() === 'tags');
 
 	if (description !== undefined)
