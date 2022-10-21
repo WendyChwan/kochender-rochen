@@ -2,7 +2,7 @@
 
 ## Tags
 
-Nudeln, Meat, Easy
+Nudeln, Fleisch, Easy
 
 ## Beschreibung
 
