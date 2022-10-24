@@ -6,16 +6,15 @@ Kürbis, Suppe
 
 ## Zutaten
 
-1 Kürbis (empf. Butternusskürbis)
-1/2 Becher Schlagobers
-200g Kartoffel
-1 Zwiebel
-Knoblauch
-
-Muskat
-Kräutersalz
-Salz
-Pfeffer
+- 1 Kürbis (empf. Butternusskürbis)
+- 1/2 Becher Schlagobers
+- 200g Kartoffel
+- 1 Zwiebel
+- Knoblauch
+- Muskat
+- Kräutersalz
+- Salz
+- Pfeffer
 
 ## Zubereitung
 
