@@ -1,4 +1,4 @@
-# Nudel mit Schinkenrahmsoße
+# Nudeln mit Schinkenrahmsoße
 
 ## Tags
 
