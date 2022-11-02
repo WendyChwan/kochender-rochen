@@ -34,7 +34,7 @@ Aufgeschnittene Zucchini und Paprika auch anbraten.
 Wenn angebraten dann Tomatensoße dazugeben.
 Gemüsesoße mit Oregano, Thymian, Salz und Pfeffer würzen.
 Optional Chili und Cayennepfeffer dazugeben.
-Die Gemüsesoße für 20 Minuten auf 2/6 köcheln lassen und immer wieder umrühren.
+Die Gemüsesoße für 20 Minuten auf 1/6 köcheln lassen und immer wieder umrühren.
 
 Währenddessen Wasser für Spaghetti aufstellen und zum kochen bringen.
 Dann salzen und Spaghetti dazugeben.
