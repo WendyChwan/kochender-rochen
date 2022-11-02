@@ -6,15 +6,15 @@ Vegetarisch, Vegan, Kartoffel, Easy
 
 ### Zutaten
 
-- 1kg Kartoffel
+- 3kg Kartoffel
 - Olivenöl (4 Esslöffel)
-- Paprikapulver
-- Salz (2 Teelöffel), Pfeffer
-- Thymian
-- Rosmarin
+- 2 Esslöffel Paprikapulver
+- 2 Esslöffel Salz (2 Teelöffel), Pfeffer
+- 2 Esslöffel Knoblauchpulver
+- 3 Teelöffel Thymian
+- 3 Teelöffel Rosmarin
 - Chili
 - Cayenpfeffer
-- Knoblauchpulver
 - Sriracha Scharfe Chilisauce
 
 ### Equipment
@@ -26,10 +26,10 @@ Vegetarisch, Vegan, Kartoffel, Easy
 ### Zubereitung
 
 Kartoffeln klein schneiden und kurz mit Wasser abwaschen.
-Wasser abtropfen lassen und mit zwei Blätter Küchenrolle das restliche Wasser aufsaugen.
-Alles mit Gewürzen in einem Behälter vermischen.
-Danach auf das Backblech auflegen und für ungefähr 35 Minuten bei 180 Grad in den Backofen geben.
-Wenn fast fertig den Backofen auf die maximale Temperatur stellen damit die Außenseite ordentlich
-gebacken wird.
+Wasser abtropfen lassen und mit mehreren Blätter Küchenrolle das restliche Wasser aufsaugen.
+Alle Gewürze in eine Tasse geben und als letztes Olivenöl dazugeben bis die Gewürzmischung halbflüssig ist.
+Dann die Gewürzmischung zu den Kartoffel geben.
+Danach die Kartoffel auf das Backblech auflegen und für 30 Minuten bei 180 Grad Umluft in den Backofen geben.
+Nach 30 Minuten den Ofen auf die Maximaltemperatur stellen um auf Ober/Unterhitze wechseln.
 
 [Why Aren't Your Potatoes Crispy Enough?](https://www.youtube.com/watch?v=KxUX7vgNGfM)
