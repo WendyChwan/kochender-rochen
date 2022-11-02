@@ -11,9 +11,7 @@ export const SearchField: React.FC<Props> = props => {
 	return (
 		<div className='search-field'>
 			<input type='text' placeholder='Suche nach Rezepten...' value={search} onChange={e => setSearch(e.target.value)} />
-			{ search !== ''
-				&& (<button type='button' onClick={() => setSearch('')}>×</button>)
-			}
+			{ search !== '' && (<button type='button' onClick={() => setSearch('')}>×</button>) }
 		</div>
 	);
 }
