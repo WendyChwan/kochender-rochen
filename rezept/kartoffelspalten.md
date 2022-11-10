@@ -2,7 +2,7 @@
 
 ### Tags
 
-Vegetarisch, Vegan, Kartoffel, Easy
+Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 
 ### Zutaten
 
