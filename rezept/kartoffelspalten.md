@@ -20,7 +20,7 @@ Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 
 ### Equipment
 
-- Topf
+- Schüssel
 - Backblech
 - Backpapier
 
