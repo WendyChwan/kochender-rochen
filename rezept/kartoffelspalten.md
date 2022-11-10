@@ -9,10 +9,11 @@ Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 - 3kg Kartoffel
 - Olivenöl (4 Esslöffel)
 - 2 Esslöffel Paprikapulver
-- 2 Esslöffel Salz (2 Teelöffel), Pfeffer
 - 2 Esslöffel Knoblauchpulver
+- 2 Esslöffel Salz
 - 3 Teelöffel Thymian
 - 3 Teelöffel Rosmarin
+- 2 Teelöffel Pfeffer
 - Chili
 - Cayenpfeffer
 - Sriracha Scharfe Chilisauce
