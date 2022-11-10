@@ -1,4 +1,4 @@
-# Banenenpancakes
+# Bananenpancakes
 
 ## Tags
 
