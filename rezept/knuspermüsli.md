@@ -8,7 +8,7 @@ Müsli, Frühstück
 
 - 1 Esslöffel Tiefkühl Schwarzbeeren
 - 200g Alpro Skyr Joghurt
-- 2x Äpfel
+- 1.5x Äpfel
 - 1 Prise Zimt
 - 1 Esslöffel Haferflocken
 - Dinkel Crunchy Müsli
