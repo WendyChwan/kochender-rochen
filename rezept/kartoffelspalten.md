@@ -6,7 +6,7 @@ Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 
 ### Zutaten
 
-- 3kg Kartoffel
+- 3kg mehlige Kartoffel
 - 9 Esslöffel Olivenöl
 - 2 Esslöffel Paprikapulver
 - 2 Esslöffel Knoblauchpulver
@@ -14,9 +14,9 @@ Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 - 3 Teelöffel Thymian
 - 3 Teelöffel Rosmarin
 - 2 Teelöffel Pfeffer
-- Chili
+- 1 Teelöffel Chili
 - Cayenpfeffer
-- Sriracha Scharfe Chilisauce
+- 1 Esslöffel Sriracha Scharfe Chilisauce
 
 ### Equipment
 
