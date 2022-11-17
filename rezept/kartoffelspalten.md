@@ -7,7 +7,7 @@ Vegetarisch, Vegan, Kartoffel, Easy, Scharf
 ### Zutaten
 
 - 3kg Kartoffel
-- Olivenöl (4 Esslöffel)
+- 9 Esslöffel Olivenöl
 - 2 Esslöffel Paprikapulver
 - 2 Esslöffel Knoblauchpulver
 - 2 Esslöffel Salz
