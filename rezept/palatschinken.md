@@ -2,7 +2,7 @@
 
 ## Tags
 
-Süß
+Süß, Vegetarisch
 
 ## Zutaten
 
