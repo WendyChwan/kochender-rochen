@@ -106,6 +106,6 @@ const textContains = (text: string, tag: string) => {
 	return text.toLowerCase().includes(tag.toLowerCase());
 }
 
-const match = (text: string, matcher: { [Symbol.match](string: string): RegExpMatchArray | null; }): RegExpMatchArray => {
+const match = (text: string, matcher: { [Symbol.match](string: string): RegExpMatchArray | null; }): string[] => {
 	return text.match(matcher) ?? [];
 }
