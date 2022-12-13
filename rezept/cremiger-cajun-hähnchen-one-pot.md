@@ -1,4 +1,4 @@
-# Cremige One-Pot Pasta mit Cajun-Hächnchen
+# Cremiger Cajun-Hächnchen One-Pot
 
 ## Tags
 
@@ -39,3 +39,9 @@ Cajun Gewürzmischung:
 6. Hühnchen, Nudel, gewürfelte Tomaten und 750ml Gemüsebrühe hineingeben.
 7. 10 minuten köcheln lassen.
 8. Frischkäse dazugeben und umrühren.
+
+## Quellen
+
+[Cajun-Gewürzmischung](https://www.chefkoch.de/rezepte/2882271440496244/Cajun-Gewuerzmischung.html)
+
+[Cremige One-Pot Pasta mit Cajun-Hähnchen](https://www.kitchenstories.com/de/rezepte/cremige-one-pot-pasta-mit-cajun-hahnchen)
