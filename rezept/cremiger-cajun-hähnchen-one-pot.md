@@ -6,7 +6,7 @@ Fleisch, Nudeln, Scharf, Milchprodukt
 
 ## Zutaten
 
-- 700g Hähnchen
+- 500g Hähnchen
 - 500g Penne
 - 2x Paprika
 - 400g gewürfelte Tomaten
