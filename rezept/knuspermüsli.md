@@ -2,7 +2,7 @@
 
 ## Tags
 
-Müsli, Frühstück
+Müsli, Frühstück, Joghurt
 
 ## Zutaten
 
