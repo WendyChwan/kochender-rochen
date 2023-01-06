@@ -12,8 +12,6 @@ Fleisch, Nudeln
 - 250g Käse
 - Zwiebel
 - Knoblauch
-- Rotwein
-- Petersilie
 - Majoran
 - Thymian
 - 0.5L Milch
