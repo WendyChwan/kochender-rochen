@@ -2,7 +2,7 @@
 
 ## Tags
 
-Fleisch, Nudel
+Fleisch, Nudeln
 
 ## Zutaten
 
