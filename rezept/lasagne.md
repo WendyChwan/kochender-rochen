@@ -6,10 +6,11 @@ Fleisch, Nudeln
 
 ## Zutaten
 
-- Nudelplatten
-- Tomatensoße
+- ~500g Nudelplatten
+- 700g Tomatensoße
 - 500g Faschiertes
 - 250g Käse
+- 1 Esslöffel Tomatenmark
 - Zwiebel
 - Knoblauch
 - Majoran
@@ -17,7 +18,7 @@ Fleisch, Nudeln
 - 0.5L Milch
 - 50g Butter
 - 40g Mehl
-- Zitrone
+- 1 halbe Zitrone
 - Muskat
 - Salz
 - Pfeffer
@@ -32,10 +33,10 @@ Bolognese und Béchamelsauce gleichzeitig zubereiten
 
 ### Ragú Bolognese
 
-In einem Topf das Olivenöl erhitzen, das Hackfleisch darin rundherum anbraten und die gehackten Zwiebeln und die gehackte Petersilie dazugeben.
-Knoblauch in feinen Scheiben und Tomatenmark dazu rühren und mitbraten.
-Mit den Dosentomaten aufgießen, salzen und pfeffern. Rotwein nach Belieben beifügen.
-Das Ragú mindestens eine halbe Stunde lang bei geöffnetem Topf einkochen lassen.
+In einem Topf das Olivenöl erhitzen und Zwiebel mit Knoblauch anbraten.
+Dann das Hackfleisch mit Tomatenmark hineingeben und anbraten und den gehackte Petersil dazugeben.
+Wenn fertig angebraten mit den Dosentomaten aufgießen, salzen und pfeffern.
+Das Ragú eine halbe Stunde lang bei geöffnetem Topf einkochen lassen.
 
 ### Béchamelsauce
 
@@ -47,13 +48,21 @@ Mit Salz, Pfeffer und Zitronensaft sowie etwas Muskatnuss abschmecken.
 	
 ### Zubereitung der Lasagne
 
-In einer gebutterten, feuerfesten Form etwas Ragú Bolognese verteilen, eine Schicht Lasagneplatten darauf legen,
-die Nudelschicht wieder mit Ragú und dann mit einer Schicht Béchamel bedecken.
-Anschließend wieder eine Schicht Nudeln, Ragú und Béchamel.
+Käse in große Stücke reiben.
+In einer gebutterten, feuerfesten Form herrichten.
+Dann die Schichten aufeinanderstapeln:
+
+1. Béchamelsauce
+2. Ragú Bolognese
+3. geriebener Käse
+4. Nudelplatten
+
+~7 Schichten
+
 So Schicht für Schicht die Form füllen.
-Die letzte Schicht sollte die Béchamelsauce bilden.
-Dick mit geriebenem Käse bestreuen und Butterflöckchen darauf setzen.
-Die Lasagne bei 180 °C Umluft ca. 30 - 40 Minuten backen, bis die Kruste goldbraun ist.
+Die letzte Schicht sollte die Béchamelsauce bilden mit geriebenen Käse.
+Die Lasagne mit Alufolie bedecken damit diese im Ofen nicht austrocknet.
+Dann bei 180 °C Umluft ca. 30 - 40 Minuten backen, bis die Kruste goldbraun ist.
 
 ### Tipp
 
