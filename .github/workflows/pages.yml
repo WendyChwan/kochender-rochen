@@ -33,6 +33,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Yarn
         uses: borales/actions-yarn@v4
+        with:
+          cmd: install
       - name: NPM install & build React page
         run: |
           cd ./react
