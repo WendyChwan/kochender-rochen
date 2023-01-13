@@ -1,16 +1,14 @@
-import './RecipeList.css';
-import { Recipe } from "../hooks/use-recipes";
+import { Recipe } from "@/entities";
+import "./RecipeList.css";
 import { RecipePreview } from "./RecipePreview";
 
 interface Props {
 	recipes: Recipe[];
 }
 
-export const RecipeList: React.FC<Props> = props => {
-	const { recipes } = props;
-
+export const RecipeList: React.FC<Props> = ({ recipes }) => {
 	return (
-		<div className='recipe-list'>
+		<div className="recipe-list">
 			{ recipes.map(r => (
 				<RecipePreview key={r.path} recipe={r} />
 			)) }

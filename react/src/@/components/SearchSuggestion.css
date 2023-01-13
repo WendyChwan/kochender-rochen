@@ -1,15 +1,13 @@
 .search-suggestion {
-	display: flex;
 	text-align: center;
 
 	margin: 8px;
 	padding: 10px 20px;
-	border: none;
 	border-radius: 100vh;
 	cursor: pointer;
 	
 	background-color: black;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }

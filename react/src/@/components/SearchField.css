@@ -1,0 +1,40 @@
+.search-field {
+	flex-direction: row;
+	width: 100%;
+
+	border: 4px solid black;
+	box-sizing: border-box;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+@media screen and (min-width: 1280px) {
+	.search-field {
+		border-left-style: solid;
+		border-right-style: solid;
+	}
+}
+
+.search-field > ._input {
+	flex: 1 1 auto;
+	padding: 15px;
+	min-width: 50px; /* otherwise the min-size is set implicitly to some large value that goes outside the bounds on smaller devices */
+
+	color: black;
+	font-size: 2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-field > ._clear {
+	aspect-ratio: 1 / 1;
+	height: 100%;
+	
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.banner {
+	background-color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4rem;
+	padding: 40px 10px;
+
+	justify-content: center;
+	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.banner {
+		font-size: 6rem;
+		padding: 80px 20px;
+	}
+}
