@@ -28,7 +28,7 @@ export const Search: React.FC<Props> = ({ recipes, searchSuggestions }) => {
 		}
 	}, [search]);
 
-	const searchResult = useMemo(() => rankRecipes(recipes, search), [search]);
+	const searchResult = useMemo(() => rankRecipes(recipes, search), [search, recipes]);
 
 	return (
 		<>

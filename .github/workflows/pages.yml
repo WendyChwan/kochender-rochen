@@ -34,7 +34,7 @@ jobs:
       - name: Install Yarn
         uses: borales/actions-yarn@v4
         with:
-          cmd: install
+          cmd: -v
       - name: NPM install & build React page
         run: |
           cd ./react
