@@ -15,3 +15,9 @@
 		width: 90%;
 	}
 }
+
+@media screen and (min-width: 1920px) {
+	.app > ._content {
+		width: 80%;
+	}
+}
