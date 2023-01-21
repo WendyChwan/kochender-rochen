@@ -16,7 +16,7 @@ Nudeln, Vegan, Vegetarisch
 - 300ml Gemüsebrühe
 - opt. 100ml Weißwein zum Ablöschen 
 - 400g Nudeln (z.B. Spiralnudeln)
-- 2 EL Ajvar 
+- 175g Ajvar 
 - viel Rosmarin 
 - Lorbeerblatt
 - Paprikapulver
