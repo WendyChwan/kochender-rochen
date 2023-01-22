@@ -42,8 +42,8 @@ Darauf die gegarten Äpfel verteilen.
 
 ### Streusel
 
-- 200g Mehl
-- 100g Butter
+- 170g Mehl
+- 120g Butter
 - 100g Zucker
 - 1 Packung Vanillezucker
 - Zimt
