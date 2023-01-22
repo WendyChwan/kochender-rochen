@@ -1,17 +1,7 @@
 import { Recipe, RecipeDTO, Section } from "@/entities";
 
 export const convertToRecipes = (dtos: RecipeDTO[]): Recipe[] => {
-	const result = dtos.map(dto => convertToRecipe(dto));
-
-	result.push({
-		path: '/rezept/abc',
-		document: [],
-		title: 'MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM',
-		tags: ['MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM'],
-		description: 'MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM'
-	})
-	
-	return result;
+	return dtos.map(dto => convertToRecipe(dto));
 }
 
 const convertToRecipe = (dto: RecipeDTO): Recipe => {
