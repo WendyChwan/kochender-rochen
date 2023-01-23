@@ -18,7 +18,10 @@ Süß, Vegetarisch
 
 ## Equipment
 
-große Pfanne, Sieb, Mixer
+- große Pfanne
+- Sieb
+- Mixer
+- Waage
 
 ## Zubereitung
 
