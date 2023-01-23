@@ -52,3 +52,4 @@ Füge nochmals Wasser hinzu und warte nochmals 5 Minuten.
 
 Danach sollten die Pancakes fertig sein.
 
+Source: [Fluffy Japanese Soufflé Pancakes](https://www.justonecookbook.com/souffle-pancake/#wprm-recipe-container-69708)
