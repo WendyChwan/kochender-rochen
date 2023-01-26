@@ -27,14 +27,15 @@ Süß, Vegetarisch
 
 Eigelb vom Eiweiß trennen und das Eiweiß für 15 Minuten in den Tiefkühler geben.
 
-Zu dem Eigelb werden 23ml Milch und Vanilleextrakt dazugegeben und umgerührt.
-Das Backpulver und das Mehl sieben und vermischen, nicht zu sehr vermischen.
+Zu dem Eigelb werden 23ml Milch und 1/4 Teelöffel Vanilleextrakt dazugegeben und umgerührt.
+2g Backpulver und 30g Mehl sieben und vermischen, aber nicht zu sehr vermischen.
+26g Zucker herrichten.
 
 Nachdem die 15 Minuten vorbei sind wird das Eiweiß aus dem Gefrierschrank genommen
 und auf mittlerer Stufe geschlagen.
 Sobald das Eiweiß undurchsichtig wird Stück für Stück den Zucker dazugeben und
 auf die maximale Stufe stellen.
-Wenn das Eiweiß Steif ist aber die kleinen Spitzen beim Rauszeihen umknicken
+Wenn das Eiweiß Steif ist aber die kleinen Spitzen beim Rauszeihen leicht umknicken
 ist das Eiweiß perfekt.
 
 Erhitze eine Pfanne mit Öl auf 150C° (2/6).
@@ -51,7 +52,7 @@ Nach 2 Minuten öffne den Deckel und füge noch eine Portion Teig auf jeden Panc
 Falls das Wasser schon verdunstet ist füge mehr hinzu.
 
 Nach 5 Minuten dreh die Pancakes sehr vorsichtig um. Sollten sie ankleben sind sie noch nicht fertig.
-Füge nochmals Wasser hinzu und warte nochmals 5 Minuten.
+Füge nochmals Wasser hinzu und warte nochmals 3 Minuten.
 
 Danach sollten die Pancakes fertig sein.
 
