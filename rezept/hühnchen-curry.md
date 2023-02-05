@@ -1,4 +1,4 @@
-# Hünchen Curry
+# Hühnchen Curry
 
 ## Beschreibung
 
