@@ -30,3 +30,6 @@ Currypaste hinzufügen und auch kurz mitanbraten.
 Mit 1 Tasse Gemüsebrühe und Kokosmilch ablöschen. 
 Gefrorene Erbsen jetzt hinzufügen. 
 Mit Kurkuma, Salz, Pfeffer würzen. 
+
+## Notizen 
+Paprika erst etwas später dazugeben, weil er bei zu langem Kochen zu bitter wird! 
