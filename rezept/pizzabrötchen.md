@@ -9,7 +9,6 @@ Vegetarisch, Brot
 - Brot
 - 120g Sauerrahm
 - 150g Dose Mais
-- 100g Champignons
 - 1/2 Paprikaschote
 - 150g Käse (wird dann gerieben)
 - 2 Esslöfel Tomatenmark
@@ -22,3 +21,5 @@ Vegetarisch, Brot
 - 1 Teelöfel italienische Kräuter oder Pizzagewürz
 
 ## Zubereitung
+
+Ober- Unterhitze 160C für 12 - 15 Minuten.
