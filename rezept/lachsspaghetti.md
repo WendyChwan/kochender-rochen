@@ -2,7 +2,7 @@
 
 ## Tags
  
- Nudeln, Fleisch, Fisch, Easy
+Nudeln, Fleisch, Fisch, Easy
 
  ## Zutaten 
  - Spaghetti 
