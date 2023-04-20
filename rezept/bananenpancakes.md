@@ -15,6 +15,7 @@ Süß, Frühstück, Bananen, Vegetarisch
 - 150ml Milch
 - 1 Prise Salz
 - Ahornsirup
+- Zimt
 - Bratöl
 
 ## Equipment
