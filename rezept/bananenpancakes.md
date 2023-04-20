@@ -12,7 +12,7 @@ Süß, Frühstück, Bananen, Vegetarisch
 - 60 - 80g brauner Zucker
 - 200g Mehl
 - 1 El Backpulver (8g)
-- 150ml Milch
+- 150 - 200ml Milch
 - 1 Prise Salz
 - Ahornsirup
 - Zimt
@@ -31,6 +31,7 @@ Zuerst werden die Bananen mit einer Gabel in einer Schüssel oder einem Teller z
 In einem anderen Behälter wird folgendes mit einem Mixer vermischt:
 ein Ei, Vanillezucker, brauner Zucker, Mehl, Backpulver, Milch, Zimt und eine prise Salz;
 Danach die zerquetschten Banenen dazugeben und alles nocheinmal mit dem Mixer vermischen.
+Falls die Mischung noch nicht flüßig ist mehr Milch dazugeben.
 
 Eine Pfanne mit ca. 1 Esslöffel Öl auf mittlere Stufe erhitzen und jeweils einen Schöpfer Teigmischung
 in die Pfanne geben.
