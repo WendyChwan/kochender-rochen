@@ -2,7 +2,7 @@
 
 ## Beschreibung
 
-Eine Rießenportion Hühnercurry mit viel Gemüße.
+Eine Riesenportion Hühnercurry mit viel Gemüße.
 
 ## Tags
 
