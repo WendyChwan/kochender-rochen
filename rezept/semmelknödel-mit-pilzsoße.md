@@ -1,4 +1,4 @@
-# Semmelknödel
+# Semmelknödel mit Pilzsoße
 
 ## Tags
 
