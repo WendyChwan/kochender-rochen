@@ -2,7 +2,7 @@
 
 ## Tags
 
-Kuchen, Süß, Vegetarisch
+Backen, Süß, Vegetarisch
 
 ## Zutaten
 
