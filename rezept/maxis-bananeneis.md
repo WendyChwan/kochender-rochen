@@ -1,4 +1,4 @@
-# Maxi's Bananeneis
+# Maxis Bananeneis
 
 ## Tags
 
