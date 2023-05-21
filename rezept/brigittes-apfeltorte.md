@@ -31,5 +31,5 @@ Teig mit dem Schnee unterheben und in die Backform füllen.
 Die Äpfel schälen und in Spalten schneiden.
 In einem Muster auf den Teig legen.
 
-Bei 180° Ober-/Unterhitze für ca. 50min backen.
+Bei 180° Ober-/Unterhitze für ca. 45min backen.
 Mit Zimt und Staubzucker bestreuen.
