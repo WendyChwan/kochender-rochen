@@ -8,7 +8,7 @@ Backen, Süß, Milchprodukt
 
 - 3 Äpfel
 - 3 Eier 
-- ~100ml Milch
+- 220ml Milch
 - 120g Butter
 - 180g Zucker
 - 1 Pck. Vanillezucker
@@ -17,16 +17,19 @@ Backen, Süß, Milchprodukt
 - Zimt
 - Staubzucker
 
+## Equipment
+
+- 2 Schüsseln
+- Backform
+
 ## Zubereitung 
 
-Die Eier nach Dotter und Eiweiß trennen. 
-Butter, Dotter und Zucker schaumig schlagen. 
-Mehl, Backpulver und ~100ml Milch unterrühren, der Teig soll sehr weich sein. 
-In einer anderen Schüssel Schnee aus dem Eiweiß schlagen.
-Teig mit dem Schnee unterheben und in die Tortenform füllen. 
-
+Eiweiß vom Eigelb trennen und das Eiweiß zu Schnee schlagen.
+In einer anderen Schüssel das Eigelb mit Butter und Zucker schaumig schlagen.
+Danach Mehl, Backpulver und Milch unterrühren bis der Teig sehr weich ist.
+Teig mit dem Schnee unterheben und in die Backform füllen.
 Die Äpfel schälen und in Spalten schneiden.
-In einem Muster auf den Teig legen. 
+In einem Muster auf den Teig legen.
 
-Bei 180° Ober-/Unterhitze ca. 50min backen. 
-Mit Zimt und Staubzucker bestreuen. 
+Bei 180° Ober-/Unterhitze für ca. 50min backen.
+Mit Zimt und Staubzucker bestreuen.
