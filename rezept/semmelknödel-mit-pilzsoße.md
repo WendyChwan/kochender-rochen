@@ -12,7 +12,7 @@ Vegetarisch
 - 600ml Milch
 - 400g Champignons
 - 2x Zwiebel
-- Mehl
+- 2x Esslöffel Mehl
 - Petersilie
 - Paprikapulver
 - Salz
