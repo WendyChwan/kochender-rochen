@@ -10,9 +10,9 @@ Vegetarisch
 - 500g Semmelwürfel
 - 140g Butter
 - 600ml Milch
-- 400g Champignons
-- 2x Zwiebel
-- 2x Esslöffel Mehl
+- 750g Champignons
+- 2 Zwiebel
+- 2 Esslöffel Mehl
 - Petersilie
 - Paprikapulver
 - Salz
@@ -27,21 +27,23 @@ große Schüssel
 
 ## Zubereitung
 
-Knödel:
+4 Portionen
+
+Zubereitung für die hälfte der Knödel (2 Portionen):
 
 In der großen Pfanne 50g Butter schmelzen lassen.
-In einer der großen Schüssel Semmelwürfel, 200ml Milch, Eier, Petersil und Salz vermengen.
+In einer der großen Schüssel 250g Semmelwürfel, 200ml Milch, 3 Eier, Petersil und Salz vermengen.
 Wenn die Butter geschmolzen ist diese auch dazugeben
 und alles gut durchkneten und zu einem großen Klumpen formen.
 Den Klumpen 10 Minuten rasten lassen.
 Später dann für 20 Minuten in kochenden gesalzenen Wasser kochen lassen.
 
-Sauce:
+Sauce für alle 4 Portionen:
 
 Zwiebel klein schneiden und Champignons in scheiben schneiden.
 Dann Zwiebel und danach Champignons in der großen Pfanne anbraten.
 Mit 200ml Milch ablöschen.
-Mit Salz, Pfeffer, Senf Paprikapulver und Petersilie würzen.
+Mit Salz, Pfeffer, Senf, Paprikapulver und Petersilie würzen.
 2 Esslöffel Mehl dazugeben.
 
 
