@@ -9,7 +9,7 @@ Vegetarisch
 - 6 Eier
 - 500g Semmelwürfel
 - 140g Butter
-- 600ml Milch
+- 700ml Milch
 - 750g Champignons
 - 2 Zwiebel
 - 2 Esslöffel Mehl
@@ -42,7 +42,7 @@ Sauce für alle 4 Portionen:
 
 Zwiebel klein schneiden und Champignons in scheiben schneiden.
 Dann Zwiebel und danach Champignons in der großen Pfanne anbraten.
-Mit 200ml Milch ablöschen.
+Mit 300ml Milch ablöschen.
 Mit Salz, Pfeffer, Senf, Paprikapulver und Petersilie würzen.
 2 Esslöffel Mehl dazugeben.
 
