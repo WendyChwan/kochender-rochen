@@ -36,6 +36,7 @@ In einer der großen Schüssel 250g Semmelwürfel, 200ml Milch, 3 Eier, Petersil
 Wenn die Butter geschmolzen ist diese auch dazugeben
 und alles gut durchkneten und zu einem großen Klumpen formen.
 Den Klumpen 10 Minuten rasten lassen.
+Danach in 4 Gleichgroße Teile teilen und zu Kugeln formen, die Oberfläche leicht schlagen damit sie fest wird.
 Später dann für 20 Minuten in kochenden gesalzenen Wasser kochen lassen.
 
 Sauce für alle 4 Portionen:
@@ -47,5 +48,6 @@ Mit Salz, Pfeffer, Senf, Paprikapulver und Petersilie würzen.
 2 Esslöffel Mehl dazugeben.
 
 
-Quelle Knödel: https://www.gutekueche.at/knoedel-mit-champignonsauce-rezept-22027
-Quelle Sauce: https://www.chefkoch.de/rezepte/1084201214225760/Schnelle-Pilzsauce.html
+Quelle Knödel: [https://www.gutekueche.at/knoedel-mit-champignonsauce-rezept-22027](https://www.gutekueche.at/knoedel-mit-champignonsauce-rezept-22027)
+
+Quelle Sauce: [https://www.chefkoch.de/rezepte/1084201214225760/Schnelle-Pilzsauce.html](https://www.chefkoch.de/rezepte/1084201214225760/Schnelle-Pilzsauce.html)
