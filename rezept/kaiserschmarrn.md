@@ -2,7 +2,7 @@
 
 ## Tags
 
-Süß, Vegetarisch
+Süß, Vegetarisch, Apfel
 
 ## Zutaten
 

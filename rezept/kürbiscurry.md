@@ -7,8 +7,8 @@ Vegan, Vegetarisch, Reis, Scharf
 ## Zutaten 
 
 - Sesamöl 
-- 1 Kürbis 
-- 1 Paprika 
+- 1 Kürbis (empfohlen: Butternusskürbis)
+- 1 Paprika
 - Zwiebel
 - Knoblauch
 - Ingwer 
