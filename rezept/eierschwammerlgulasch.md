@@ -1,8 +1,8 @@
-# Schwammerlgulasch
+# Eierschwammerlgulasch
 
 ## Tags
 
-Pilze, Kartoffel
+Pilze, Kartoffel, Vegetarisch
 
 ## Zutaten
 
@@ -13,7 +13,7 @@ Pilze, Kartoffel
 - Butter
 - 1/2 Becher Schlag
 - Weißwein
-- 250ml Rindsuppe
+- 250ml Rind/Gemüsesuppe
 - Tomatenmark
 - Paprikapulver
 - Thymian

@@ -13,11 +13,11 @@ Gemüse, Fleisch
 - Knoblauch
 - Käse
 - 400g Joghurt
-- Schnittlauch (tiefgefrohren oder frisch)
 - 1x große Gurke
 - Tomaten
 - Salat
 - Paprika
+- Schnittlauch (tiefgefrohren oder frisch)
 - 1 Teelöffel Thymian
 - 1 Teelöffel Majoran
 - 2 Teelöffel Senf

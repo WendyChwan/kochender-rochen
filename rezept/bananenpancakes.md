@@ -14,8 +14,8 @@ Süß, Frühstück, Bananen, Vegetarisch
 - 1 El Backpulver (8g)
 - 150 - 200ml Milch
 - 1 Prise Salz
-- Ahornsirup
 - Zimt
+- Ahornsirup
 - Bratöl
 
 ## Equipment

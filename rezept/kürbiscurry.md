@@ -7,18 +7,21 @@ Vegan, Vegetarisch, Reis, Scharf
 ## Zutaten 
 
 - Sesamöl 
-- 1 Kürbis 
-- 1 Paprika 
+- 1 Kürbis (empfohlen: Butternusskürbis)
+- 1 Paprika
 - Zwiebel
 - Knoblauch
 - Ingwer 
 - Frühlingszwiebel
-- Erbsen (opt.)
+- Erbsen
 - Currypaste 
 - Kokosmilch
 - 1 Tasse Gemüsebrühe
-- Kurkuma
-- Salz, Pfeffer 
+- 1 Esslöffel Kurkuma
+- 1.5 Esslöffel Curry Süß
+- 1.5 Esslöffel Curry Scharf
+- Salz
+- Pfeffer 
 - Reis (80g pro Portion)
 
 ## Zubereitung 
