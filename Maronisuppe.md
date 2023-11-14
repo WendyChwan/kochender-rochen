@@ -10,11 +10,18 @@ Vegan, Vegetarisch, Suppe
 - Knoblauch
 - 200g Maroni 
 - 1 Kartoffel 
-- Gemüsesuppe
+- 1l Gemüsebrühe
 - Butter 
-- Schlagobers/Kochcreme 
+- Schlagobers/Vegane Kochcreme (Hofer)
 - Salz
 - Pfeffer
 - Muskat 
 
 ## Zubereitung
+
+Zwiebel und Knoblauch in Butter anbraten. 
+Maroni und 1 Kartoffel hinzugeben. 
+Mit Gemüsebrühe ablöschen. 
+So lange köcheln lassen, bis Maroni weich sind, dann pürrieren. 
+Schlagobers dazugeben. 
+Mit Salz, Pfeffer, Muskat abschmecken. 
