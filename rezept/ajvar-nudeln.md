@@ -9,13 +9,13 @@ Nudeln, Vegan, Vegetarisch
 - Zwiebel
 - Knoblauch
 - Ingwer
-- einige Karotten
-- 1 Zucchini
-- 200g rote Linsen
+- 750g Karotten
+- 2 Zucchini
+- 1 Tasse rote Linsen
 - 2 EL Tomatenmark 
 - 300ml Gemüsebrühe
 - 400g Nudeln (z.B. Spiralnudeln)
-- 175g Ajvar 
+- 4 EL Ajvar 
 - viel Rosmarin 
 - Lorbeerblatt
 - Paprikapulver
