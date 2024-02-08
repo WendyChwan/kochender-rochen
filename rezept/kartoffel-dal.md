@@ -6,25 +6,25 @@ Vegan, Vegetarisch, Curry
 
 ## Zutaten 
 
-Bulgur (70-80g pro Portion) 
-300g rote Linsen 
-1kg Kartoffeln 
-1 Dose gehackte Tomaten 
-Kokosmilch
-600ml Gemüsebrühe
-Frischer Spinat
-Zwiebel
-Knoblauch 
-Tomatenmark
-2 EL Hefeflocken 
-Ingwer
-Kurkuma
-Garam Masala 
-Currypulver 
-Knoblauchpulver
-Paprikapulver
-Salz
-1/2 Zitrone
+- Bulgur (70-80g pro Portion) 
+- 300g rote Linsen 
+- 1kg Kartoffeln 
+- 1 Dose gehackte Tomaten 
+- Kokosmilch
+- 600ml Gemüsebrühe
+- Frischer Spinat
+- Zwiebel
+- Knoblauch 
+- Tomatenmark
+- 2 EL Hefeflocken 
+- Ingwer
+- Kurkuma
+- Garam Masala 
+- Currypulver 
+- Knoblauchpulver
+- Paprikapulver
+- Salz
+- 1/2 Zitrone
 
 ## Zubereitung 
 
