@@ -7,7 +7,7 @@ interface Props {
 
 export const RecipePreview: React.FC<Props> = ({ recipe }) => {
 	return (
-		<a href={recipe.path} target='_self'>
+		<a href={process.env.PUBLIC_URL + recipe.path} target='_self'>
 			<div className='recipe-preview'>
 				<p className='_title'>{recipe.title}</p>
 				<p className="_tags">{recipe.tags.join(', ')}</p>
