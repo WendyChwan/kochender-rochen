@@ -46,4 +46,4 @@ export const Search: React.FC<Props> = ({ recipes, searchSuggestions }) => {
 
 const getSearchLocation = () => decodeURI(new URLSearchParams(window.location.search).get('search') ?? '');
 
-const setSearchLocation = (search: string) => window.history.pushState({}, '', search === '' ? '/' : '/?search=' + encodeURI(search))
+const setSearchLocation = (search: string) => window.history.pushState({}, '', search === '' ? '/' : process.env.PUBLIC_URL + '/?search=' + encodeURI(search))
