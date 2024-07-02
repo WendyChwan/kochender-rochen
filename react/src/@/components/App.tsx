@@ -17,7 +17,7 @@ export const App: React.FC = () => {
 			setError('Fehler: Das Laden der Rezepte hat zu lange gebraucht.');
 		}, 2000);
 
-		fetch('/recipes.json', { signal: controller.signal }).then(response => {
+		fetch(process.env.PUBLIC_URL + '/recipes.json', { signal: controller.signal }).then(response => {
 			if (response.ok) {
 				response.json().then((json: RecipeDTO[]) => setRecipes(convertToRecipes(json)));
 			}
