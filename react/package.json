@@ -2,6 +2,7 @@
   "name": "kochender-rochen",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@types/node": "^16.11.64",
     "@types/react": "^18.0.21",
