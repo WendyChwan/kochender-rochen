@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Banner, InfoBox, Search } from '.';
 import './App.css';
 
-const searchSuggestions = ['*', 'Vegan', 'Vegetarisch', 'Fleisch', 'Nudeln', 'Reis', 'Kartoffel', 'Süß', 'Scharf', 'Salat', 'Suppe', 'Backen'];
+const searchSuggestions = ['*', 'Vegan', 'Vegetarisch', 'Fleisch', 'Nudeln', 'Reis', 'Kartoffel', 'Süß', 'Scharf', 'Salat', 'Suppe', 'Backen', 'Inspiration'];
 
 export const App: React.FC = () => {
 	const [recipes, setRecipes] = useState<Recipe[] | undefined>();
