@@ -10,14 +10,14 @@ Nudeln, Vegetarisch, Vegan, Lasagne
 - 2 Auberginen 
 - 1 Dose stückige/passierte Tomaten
 - 250ml Gemüsebrühe
-- 500ml Milch (alternativ z.B. ungesüßte Sojamilch)
+- 500ml ungesüßte Sojamilch
 - 50g Butter (alternativ pflanzliche Butter)
 - 40g Mehl
 - Lasagneblätter 
 - Salz, Pfeffer
 - Oregano
-- opt.: 100g Käse (z.B. Gouda)
-
+- opt.: Hefeflocken
+- opt.: halbe Tasse Linsen
 
 ## Zubereitung 
 Als erstes die Auberginen vorbereiten: Waschen und in möglichst dünne Scheiben schneiden. Die Scheiben auflegen und salzen, damit das Wasser entziehen kann. Eine Weile ziehen lassen. 
