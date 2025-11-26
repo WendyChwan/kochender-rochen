@@ -29,3 +29,5 @@ Olivenöl und Kräuter darübergeben und 30 Minuten bei 180° Ober- Unterhitze b
 Dann alles in einen Mixer geben und zusammen mit Seidentofu, Gemüsebrühe und Gewürzen pürieren.
 
 Kann mit Sojajoghurt getoppt werden. 
+
+Anmerkung: war ok, würde anders würzen  (wie normale Kürbissuppe)

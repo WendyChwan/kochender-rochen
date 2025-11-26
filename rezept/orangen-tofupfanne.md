@@ -20,7 +20,9 @@ Reis
 - 1 tl Chiliflocken 
 - 1 tl Knoblauchpulver 
 - 0,5 tl Ingwer
-- Saft (und Abrieb) einer Oorange
+- Saft von 2 Orangen
+- Schuss Agavendicksaft
+- Glutamat
 
 ## Zubereitung 
 
@@ -30,11 +32,11 @@ Den Tofu in Küchenrolle wickeln, etwas Schweres daraufstellen und entwässern l
 
 Reis aufstellen. 
 
-Die Orange pressen. 
+Die Orangen pressen. 
 
-Den Tofu in einen verschließbaren Behälter mit Speisestärke geben (optional auch mit Gochujang und Sojasauce). 
+Den Tofu in einen verschließbaren Behälter mit Speisestärke geben. 
 Gut durchschütteln, bis sich alles verteilt. 
-Tofu in Öl in einer Pfanne braten, bis er braun und knusprig wird. 
+Tofu in Öl in einer Pfanne braten, bis er braun und knusprig wird. Mit 1,5 EL Gochujang anbraten.
 
 Die gepresste Orange in eine Schüssel geben und mit Zutaten der Sauce vermengen. 
 
