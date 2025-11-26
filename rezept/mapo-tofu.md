@@ -12,7 +12,7 @@ Reis, Japanisch, Asian
 - 1 EL Chili-Bohnen-Paste (zB Gochujang) 
 - Optional (Abwandlung): 1 EL Black Garlic Bean Paste
 - 1 EL Miso-Paste (fermentierte Bohnenpaste) (Sunchang Doenjang)
-- 200ml Dashi-Brühe
+- 250ml Dashi-Brühe
 - 2 EL Mirin
 - 1 tl Zucker
 - 1,5 EL Sojasauce
@@ -23,6 +23,9 @@ Reis, Japanisch, Asian
 - Seidentofu
 - Frühlingszwiebeln 
 - Faschiertes
+- optional getrocknete Pilze
+- optional halbe rote Paprika, klein geschnitten
+- optional Erdnüsse als Topping
 
 ## Zubereitung 
 
@@ -33,5 +36,7 @@ Reis, Japanisch, Asian
 5.	In Pfanne Faschiertes braten. Knoblauch, Ingwer, Frühlingszwiebel dazugeben. 
 6.	Sauce und Tofu dazugeben, 5min köcheln lassen. 
 7.	Stärke hinzugeben zum Andicken.
+
+Für 4 Portionen die Mengen verdoppeln. 
 
 
