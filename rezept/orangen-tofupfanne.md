@@ -34,7 +34,7 @@ Reis aufstellen.
 
 Die Orangen pressen. 
 
-Den Tofu in einen verschließbaren Behälter mit Speisestärke geben. 
+Den Tofu schneiden und in einen verschließbaren Behälter mit Speisestärke geben. 
 Gut durchschütteln, bis sich alles verteilt. 
 Tofu in Öl in einer Pfanne braten, bis er braun und knusprig wird. Mit 1,5 EL Gochujang anbraten.
 
