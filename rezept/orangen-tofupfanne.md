@@ -6,7 +6,7 @@ Reis
 
 ## Zutaten 
 
-- Saft (und Abrieb) 1er Orange 
+- Saft 2er Orangen 
 - Tofu 
 - opt: Gochujang
 - 200g gefrorene Edamame 
@@ -26,7 +26,7 @@ Reis
 
 ## Zubereitung 
 
-Die Edamame 5 Minuten im gesalzenen Wasser kochen, dann in einem Sieb (!) austropfen lassen. 
+Die Edamame 5 Minuten im gesalzenen Wasser kochen, dann in einem Sieb austropfen lassen. 
 
 Den Tofu in Küchenrolle wickeln, etwas Schweres daraufstellen und entwässern lassen. 
 
